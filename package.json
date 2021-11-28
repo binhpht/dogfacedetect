@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./ "
+    "start": "heroku ps:scale worker=1"
     },
   "keywords": [],
   "author": "",
